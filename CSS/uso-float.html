@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de float</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial;
+        }
+        .main{
+            background: #4a9c4a;
+            width: 90%;
+            margin: auto;
+            padding: 15px;
+            overflow: hidden;
+
+        }
+
+        .caja{
+            width: 500px;
+            height: 200px;
+            margin: 20px;
+            
+        }
+
+        .img{
+            float: left;
+            width: auto;
+        }
+
+        .text{
+            float: right;
+        }
+
+        /*Estilos para articulos*/
+        .articulo{
+            background: #64c8e7;
+            width: 500px;
+            margin: auto;
+            padding: 10px;
+        }
+        .articulo h2{
+            text-align: center;
+            padding: 10px;
+        }
+        .articulo img{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class=" caja img">
+           <img src="https://loremflickr.com/g/320/240/paris" alt="200"> 
+        </div>
+        <div class="caja text">
+            <h2>Soy un encabezado</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum 
+                similique eos voluptatem illum iste nam mollitia error at eius 
+                deserunt voluptate alias officia earum fuga, quidem neque 
+                eligendi minus cumque?</p>
+        </div>
+    </main>
+
+    <article class="articulo">
+        <h2>Encabezado de articulo</h2>
+        <img src="https://loremflickr.com/g/320/240/paris" alt="200">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Sunt sapiente molestias 
+            consectetur repellendus tenetur assumenda aperiam sit numquam. 
+            Exercitationem, omnis nobis! Inventore, 
+            cupiditate molestias et iste possimus perspiciatis nostrum? 
+            Nulla.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Sunt sapiente molestias 
+            consectetur repellendus tenetur assumenda aperiam sit numquam. 
+            Exercitationem, omnis nobis! Inventore, 
+            cupiditate molestias et iste possimus perspiciatis nostrum? 
+            Nulla.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Sunt sapiente molestias 
+            consectetur repellendus tenetur assumenda aperiam sit numquam. 
+            Exercitationem, omnis nobis! Inventore, 
+            cupiditate molestias et iste possimus perspiciatis nostrum? 
+            Nulla.
+        </p>    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Sunt sapiente molestias 
+            consectetur repellendus tenetur assumenda aperiam sit numquam. 
+            Exercitationem, omnis nobis! Inventore, 
+            cupiditate molestias et iste possimus perspiciatis nostrum? 
+            Nulla.
+        </p>   
+    </article>
+    
+</body>
+</html>

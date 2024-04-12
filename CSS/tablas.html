@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos para tablas</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table, th, td{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            text-align: center;
+        }
+        th, td{
+            padding: 10px;
+        }
+
+        th{
+            background: #312ed1;
+            color: #fff;
+
+        }
+
+        tr:hover{
+            background: #999999;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>pais</th>
+        </tr>
+        <tr>
+            <td>Federico</td>
+            <td>27</td>
+            <td>Argentina</td>
+        </tr>
+        <tr>
+            <td>Fabian</td>
+            <td>29</td>
+            <td>Colombia</td>
+        </tr>
+
+    </table>    
+</body>
+</html>

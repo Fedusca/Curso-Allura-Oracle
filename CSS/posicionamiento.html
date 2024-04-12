@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+
+    <style>
+        *{padding: 0;
+        margin: 0;}
+
+        .Caja{
+            background: #0e6ba8;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            
+        }
+        .Caja-padre{
+            margin: 20px;
+            background: #cf541b;
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+        .Position{
+            background: #10db1a;
+            position: absolute;
+            bottom: 0%;
+
+        }
+        /*Absolute: se mueve de su lugar y otro elemento 
+        ocupa el espacio en blanco automaticamente
+        Fixed: Se mueve independientemente siguiendo nuestra vista de la pag
+        Relative: Se mueve de su sitio original, pero deja el espacio en blanco
+        sin ocupar*/
+    </style>
+</head>
+<body>
+    <div class="Caja"></div>
+    <div class="Caja-padre">
+        <div class="Caja Position"></div>
+    </div>
+    <div class="Caja"></div>
+    <div class="Caja"></div>
+    <div class="Caja"></div>
+    <div class="Caja"></div>
+    <div class="Caja"></div>
+    <div class="Caja"></div>
+</body>
+</html>
