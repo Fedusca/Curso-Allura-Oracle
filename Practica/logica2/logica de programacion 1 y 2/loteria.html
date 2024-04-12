@@ -1,0 +1,44 @@
+<meta charset="utf-8">
+
+<h1>PROGRAMA Loteria</h1>
+
+<script>
+	
+	function saltarlinea() {
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function imprimir(frase) {
+
+		document.write(frase)
+		saltarlinea();
+	}
+	
+	function sorteo (n) {
+		return Math.round(Math.random()*n);
+	}
+	var numeroPensado = sorteo(10);
+	var numeroLanzado = parseInt(prompt("Ingrese un numero del 0 al 10"));
+
+	if (numeroPensado == numeroLanzado) {
+
+		imprimir("Tenemos un ganador")
+
+	}
+
+	else  {
+		if (numeroLanzado > numeroPensado) {
+			imprimir("Casi!, el numero era menor!")
+		}
+		else
+
+		imprimir("Casi!, el numero era mayor! ")
+
+	}
+
+</script>
+
+

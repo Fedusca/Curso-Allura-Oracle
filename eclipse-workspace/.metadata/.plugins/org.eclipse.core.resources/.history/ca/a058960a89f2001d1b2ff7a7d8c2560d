@@ -1,0 +1,7 @@
+package com.alura.test;
+
+public class PruebaConecxion {
+	public static void main(String[] args) {
+		
+	}
+}
